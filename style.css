@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    display:flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+.left{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 255);
+}
+.left img{
+    height: 60%;
+    width: 60%;
+}
+.rigth{
+    display:grid;
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: rgb(194, 231, 255);
+}
+#h1{
+    display: flex;
+    padding-top: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+#h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+}
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+#email{
+    width: 50vh;
+    height: 6vh;
+    border-radius: 1vh;
+    padding-left:2vh ;
+    border: none;
+}
+#pass{
+    width: 50vh;
+    height: 6vh;
+    border-radius: 1vh;
+    padding-left:2vh ;
+    border: none;
+}
+a{  display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.form a{
+    text-decoration: none;
+    color: black;
+}
+
+#button{
+    
+    height: 6vh;
+    width: 60vh;
+    color: white;
+    background-color: #1362ff;
+    border: none;
+    font-size: 3vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.rigth p{
+    display: flex;
+    justify-content: center;
+}
+
+.rigth p a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.rigth p a:hover{
+        transition: 0.5s ease;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+}
